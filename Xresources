@@ -1,0 +1,20 @@
+/*https://wiki.archlinux.org/index.php/Rxvt-unicode*/
+
+urxvt.perl-lib:                      /home/kali/urxvt-font
+urxvt.keysym.Control-Shift-F11:      perl:font:decrement
+urxvt.keysym.Control-Shift-F12:      perl:font:increment
+URxvt.perl-ext-common:		     default,font,tabbed,matcher
+
+/* Tabbed is AWESOME!!! */
+/* Can I has the tabs greenish??? */
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg:    3
+URxvt.tabbed.tab-bg:    0
+
+/* matcher: open links from keyboard */
+URxvt.keysym.C-Delete:  perl:matcher:last
+URxvt.keysym.M-Delete:  perl:matcher:list
+
+ /* Fonts */
+urxvt*boldColors: on
