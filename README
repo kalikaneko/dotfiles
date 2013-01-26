@@ -1,0 +1,9 @@
+Kali's dotfiles
+===============
+
+uses dotfiles -- http://pypi.python.org/pypi/dotfiles/
+
+$ git clone https://github.com/kalikaneko/dotfiles Dotfiles
+$ dotfiles --sync
+
+
