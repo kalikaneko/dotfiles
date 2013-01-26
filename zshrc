@@ -13,6 +13,9 @@ ZSH_THEME="smt2" # I don't understand the chinese symbols -- blessing
 #ZSH_THEME="dogenpunk"
 # but the vcs info is pretty good
 
+# the coolest pager on earth
+PAGER=vimpager
+
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
