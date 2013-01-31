@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+"""
+select a random pic from freecabin porn
+and set background wallpaper.
+"""
+import random
+import subprocess
+
+from bs4 import BeautifulSoup
+import requests
+
+r = requests.get('http://freecabinporn.com')
+soup = BeautifulSoup(r.content)
+_images = [image["src"] for image in soup.findAll("img")]
+images = [x for x in _images if "media" in x]
+
+pick = random.choice(images)
+img = requests.get(pick)
+
+with open('/tmp/cabinpic', 'wb') as f:
+    f.write(img.content)
+
+p = subprocess.Popen(['awsetbg', '-f', '/tmp/cabinpic'])
