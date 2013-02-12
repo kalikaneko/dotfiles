@@ -1,0 +1,104 @@
+#!/usr/bin/env bash
+
+################################
+# Plays one of the tracks      #
+# fom musicforprogramming.net  #
+################################
+
+mplayer=`which mplayer`
+nu=$1
+
+URI_BASE="http://datashat.net/music_for_programming_"
+
+case "$nu" in
+	0x00)
+		song="datasette"
+		TRACK="1-datassette.mp3"
+		;;
+	0x01)
+		song="Sunjammer"
+		TRACK="2-sunjammer.mp3"
+		;;
+	0x02)
+		song="Dattasette"
+		TRACK="3-datassette.mp3"
+		;;
+	0x03)
+		song="Com Truise"
+		TRACK="4-com_truise.mp3"
+		;;
+	0x04)
+		song="Abbe Mangger"
+		TRACK="5-abe_mangger.mp3"
+		;;
+	0x05)
+		song="Gods of the New Age"
+		TRACK="6-gods_of_the_new_age.mp3"
+		;;
+	0x06)
+		song="Tahlhoff Garten + Untitled"
+		TRACK="7-tahlhoff_garten_and_untitled.mp3"
+		;;
+	0x07)
+		song="Connectedness Locus"
+		TRACK="8-connectedness_locus.mp3"
+		;;
+	0x08)
+		song="Datassette"
+		TRACK="9-datassette.mp3"
+		;;
+	0x09)
+		song="Unity Gain Temple"
+		TRACK="10-unity_gain_temple.mp3"
+		;;
+	0x0a)
+		song="Miles Tilmann"
+		TRACK="11-miles_tilmann.mp3"
+		;;
+	0x0b)
+		song="Forgotten Light"
+		TRACK="12-forgotten_light.mp3"
+		;;
+	0x0c)
+		song="Matt Whitehead"
+		TRACK="13-matt_whitehead.mp3"
+		;;
+	0x0d)
+		song="Tahlhoff Garten + Untitled"
+		TRACK="14-tahlhoff_garten_and_untitled.mp3"
+		;;
+	0x0e)
+		song="Dan Adeyemi"
+		TRACK="15-dan_adeyemi.mp3"
+		;;
+	0x0f)
+		song="Silent Stelios"
+		TRACK="16-silent_stelios.mp3 "
+		;;
+	0x10)
+		song="Graphplan"
+		TRACK="17-graphplan.mp3"
+		;;
+	*)
+		echo "Session number not valid."
+		exit
+		;;
+esac
+
+# Escape code
+esc=`echo -en "\033"`
+
+# Set colors
+cc_green="${esc}[0;32m"
+cc_yellow="${esc}[0;33m"
+cc_blue="${esc}[0;34m"
+cc_red="${esc}[0;31m"
+cc_normal=`echo -en "${esc}[m\017"`
+
+# Display track title
+pre="${cc_green}Playing: "
+post="${cc_normal}"
+echo $pre $song $post
+
+# Play!
+mplayer -really-quiet $URI_BASE$TRACK
