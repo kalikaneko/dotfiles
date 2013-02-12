@@ -48,3 +48,6 @@ source ~/.zshrc.local
 DISABLE_AUTO_TITLE=true
 NOPRECMD=1
 NOTITLE=1
+
+#debian quilt: http://www.debian.org/doc/manuals/maint-guide/modify
+alias dquilt="quilt --quiltrc=${HOME}/.quiltrc-dpkg"
