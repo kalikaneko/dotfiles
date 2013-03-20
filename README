@@ -9,3 +9,8 @@ $ dotfiles --sync
 debian vim support
 ------------------
 $ sudo apt-get install vim-nox  # with python support
+
+vim submodule
+-------------
+git submodule init
+git submodule update (BROKEN!)
