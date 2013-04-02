@@ -1,0 +1,4 @@
+#!/bin/sh
+sha256sum $1 > $1.sha256
+gpg --clearsign $1.sha256
+# add -u foo@bar.org for choosing the user
