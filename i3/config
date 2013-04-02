@@ -27,6 +27,7 @@ bindsym $mod+Shift+Q kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
+bindsym Control+space exec dmenu_run
 
 # change focus
 bindsym $mod+j focus left
@@ -141,5 +142,5 @@ bar {
 	# https://wiki.archlinux.org/index.php/I3
         status_command i3status
 	position top
-	mode hide # --- woooh!
+	mode hide
 }
