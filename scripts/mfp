@@ -86,6 +86,7 @@ case "$nu" in
 	0x12)
 		song="Hivemind"
 		TRACK="10-hivemind.mp3"
+		;;
 	*)
 		echo "Session number not valid."
 		exit
