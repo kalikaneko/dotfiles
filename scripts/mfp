@@ -83,6 +83,9 @@ case "$nu" in
 		song="Konx Om Pax"
 		TRACK="18-konx_om_pax.mp3"
 		;;
+	0x12)
+		song="Hivemind"
+		TRACK="10-hivemind.mp3"
 	*)
 		echo "Session number not valid."
 		exit
