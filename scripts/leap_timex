@@ -1,0 +1,15 @@
+#!/bin/sh
+# Display interesting timezones
+# in the leap universe.
+
+echo "~~~~~~~~~~~~~~"
+echo "    LEAP      "
+echo "  UNIVERSAL   "
+echo "    TIME      "
+echo '~~~~~~~~~~~~~~'
+
+TZ="America/Los_Angeles" xclocktz -zone "San Francisco"&
+TZ="America/New_York" xclocktz -zone "New York"&
+TZ="Europe/UTC" xclocktz -zone "UTC"&
+TZ="Europe/Berlin" xclocktz -zone "Berlin"&
+TZ="Asia/Seoul" xclocktz -zone "Seoul"&
