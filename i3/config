@@ -144,3 +144,5 @@ bar {
 	position top
 	mode hide
 }
+exec eval $(gpg-agent -q --write-env-file "${HOME}/.gpg-agent-info" --daemon) &
+exec urxvtd &
