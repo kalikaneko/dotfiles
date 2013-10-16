@@ -1,4 +1,7 @@
 QUILT_PATCHES=debian/patches
 QUILT_NO_DIFF_INDEX=1
 QUILT_NO_DIFF_TIMESTAMPS=1
-QUILT_REFRESH_ARGS="-p ab"
+QUILT_REFRESH_ARGS="--no-timestamps --no-index -p ab"
+QUILT_PUSH_ARGS="--color=auto"
+QUILT_DIFF_ARGS="--no-timestamps --no-index -p ab --color=auto"
+QUILT_DIFF_OPTS='-p'
