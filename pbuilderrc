@@ -83,3 +83,10 @@ else
     echo "Unknown distribution: $DIST"
     exit 1
 fi
+if [ -z "$LD_PRELOAD" ]; then
+  LD_PRELOAD=/usr/lib/libeatmydata/libeatmydata.so
+else
+  LD_PRELOAD="$LD_PRELOAD":/usr/lib/libeatmydata/libeatmydata.so
+fi
+
+export LD_PRELOAD
