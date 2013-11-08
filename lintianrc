@@ -1,0 +1,3 @@
+color = always
+display-experimental = True
+pedantic = True
