@@ -87,6 +87,18 @@ case "$nu" in
 		song="Hivemind"
 		TRACK="19-hivemind.mp3"
 		;;
+	0x13)
+		song="Uberdog"
+		TRACK="20-uberdog.mp3"
+		;;
+	0x14)
+		song="Idol Eyes"
+		TRACK="21-idol_eyes.mp3"
+		;;
+	0x15)
+		song="Mindaugaszq"
+		TRACK="22-mindaugaszq.mp3"
+		;;
 	*)
 		echo "Session number not valid."
 		exit
