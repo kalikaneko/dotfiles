@@ -15,3 +15,8 @@ vim submodule
 git submodule init
 git submodule update
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
+unicode support
+----------------
+I always spend more than needed setting a CJK font for my prompt :(
+DO *not* forget to dpkg-reconfigure locales ;)
