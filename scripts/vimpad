@@ -1,0 +1,2 @@
+#!/bin/sh
+curl -L https://pad.riseup.net/p/$1/export/txt | vim -c "set filetype=mail" - $2
