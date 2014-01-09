@@ -20,8 +20,8 @@ root: ~/
 
 windows:
   - bitmask:
-    - workon leap-bitmask
     - cd ~/leap/leap_client
+    - workon leap-bitmask
     - git status
   - soledad:
     - workon leap-bitmask
