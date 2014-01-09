@@ -1,0 +1,4 @@
+set show-date = no
+set show-rev-graph = yes        # Show revision graph?
+set show-refs = yes             # Show references?
+set show-line-numbers = yes     # Show line numbers?
