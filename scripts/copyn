@@ -1,0 +1,17 @@
+#!/bin/zsh
+# Copy only the fist Nth files to destination.
+# Usage: copyn ["PATTERN"] [MAX] [DEST]
+pat=$1
+max=$2
+dst=$3
+
+cnt=0
+for f in $(eval ls $pat)
+do
+  if [ "$cnt" -lt "$((max - 1))" ]
+  then
+    cnt=$((cnt + 1))
+    echo "Copy $cnt: $f"
+    cp $f $dst
+  fi
+done
