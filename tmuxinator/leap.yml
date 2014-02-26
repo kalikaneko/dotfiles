@@ -20,9 +20,14 @@ root: ~/
 
 windows:
   - bitmask:
-    - cd ~/leap/leap_client
     - workon leap-bitmask
     - git status
+  - mail:
+    - workon leap-bitmask
+    - cd ~/leap/leap_mail
+    - git status
+  - twisted:
+    - cd $twisted
   - soledad:
     - workon leap-bitmask
     - cd ~/leap/soledad
@@ -30,8 +35,4 @@ windows:
   - keymanager:
     - workon leap-bitmask
     - cd ~/leap/keymanager
-    - git status
-  - mail:
-    - workon leap-bitmask
-    - cd ~/leap/leap_mail
     - git status
