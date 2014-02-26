@@ -146,3 +146,7 @@ bar {
 }
 exec eval $(gpg-agent -q --write-env-file "${HOME}/.gpg-agent-info" --daemon) &
 exec urxvtd &
+exec awsetbg images/cabin-lake.png &
+exec xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape' &
+exec xmodmap ~/.Xmodmap &
+
