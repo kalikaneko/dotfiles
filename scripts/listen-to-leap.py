@@ -31,17 +31,23 @@ play = lambda string, note, time, octave: aud(
     "-d", time,
     "-o", octave)
 
+CR = "\n"
+matched_lines = lambda pat, buf: CR.join(
+    [line for line in buf.split(CR) if pat in line])
 
 # since we're spawning new processes, we cannot
 # control the duration...
 # So, we batch them in buffers of three of more lines.
 
+
 def contains_info(lines):
     buf = "\n".join(lines)[:-1]
     if "FETCH" in buf:
+        buf = matched_lines("FETCH", buf)
         play(buf, "G", 20, 3)
         return True
-    if "RECV" in buf:
+    if "rcv:" in buf:
+        buf = matched_lines("rcv:", buf)
         play(buf, "F", 10, 3)
         return True
     return False
@@ -111,6 +117,12 @@ def printer():
         print 'Printer Pipeline Ended'
 
 
+def check(line, error, target):
+    if error(line):
+        print "sending ERROR ---------"
+        target.send(line)
+
+
 @coroutine
 def grep(pattern_check, target):
     buf = []
@@ -119,19 +131,18 @@ def grep(pattern_check, target):
     try:
         while True:
             line = (yield)
-            if error(line):
-                target.send(line)
-
             buf.append(line)
-
             if len(buf) > 3:
                 if info(buf):
                     target.send(buf)
                     buf = []
+                    check(line, error, target)
                 else:
                     continue
             else:
+                check(line, error, target)
                 continue
+
     except GeneratorExit:
         print "Grep Pipeline Ended"
         target.close()
