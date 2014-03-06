@@ -1,9 +1,18 @@
 /*https://wiki.archlinux.org/index.php/Rxvt-unicode*/
 
-urxvt.perl-lib:                      /home/kali/urxvt-font
+/*https://github.com/muennich/urxvt-perls.git*/
+/*manually included font in urxvt-perls, in kalikaneko/urxvt-perls fork now*/
+
+/*urxvt.perl-lib:                      /home/kali/urxvt-font*/
+urxvt.perl-lib:  		     /home/kali/urxvt-perls
 urxvt.keysym.Control-Shift-F11:      perl:font:decrement
 urxvt.keysym.Control-Shift-F12:      perl:font:increment
-URxvt.perl-ext-common:		     default,font,tabbed,matcher
+URxvt.perl-ext-common:		     default,font,tabbed,url-select
+/* matcher */
+/* url-select */
+URxvt.keysym.M-u: 		     perl:url-select:select_next
+URxvt.url-select.launcher: 	     chromium
+URxvt.url-select.underline:          true
 
 /* Tabbed is AWESOME!!! */
 /* Can I has the tabs greenish??? */
@@ -13,8 +22,13 @@ URxvt.tabbed.tab-fg:    3
 URxvt.tabbed.tab-bg:    0
 
 /* matcher: open links from keyboard */
+/*
 URxvt.keysym.C-Delete:  perl:matcher:last
 URxvt.keysym.M-Delete:  perl:matcher:list
+*/
+
+/* color URLs */
+URxvt.colorUL: #4682B4
 
  /* Fonts */
 urxvt*boldColors: on
