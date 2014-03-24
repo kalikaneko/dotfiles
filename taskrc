@@ -28,7 +28,14 @@ include /usr/share/taskwarrior/dark-yellow-green.theme
 uda.issue.type=numeric
 uda.issue.label=Issue
 
-report.bugs.description=Bugs report
+report.bugs.description=Bugs report (leap + twisted)
 report.bugs.columns=id,issue,priority,due,description,project,tags
 report.bugs.labels=ID,Issue,Pri,Due,Decription,Pro,Tags
-report.bugs.filter=project:leap or project:twisted
+report.bugs.filter=(project:leap or project:twisted) and status:pending
+report.bugs.sort=due+,urgency-
+
+
+# Good ideas/examples here:
+# http://www.mostlymaths.net/2011/03/using-taskwarrior-instead-of-emacsorg.html
+# http://blag.nullteilerfrei.de/2012/12/31/taskwarrior/
+# https://lwn.net/Articles/488899/
