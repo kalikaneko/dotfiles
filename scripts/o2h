@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+"""
+Convert any octal string passed as arguments
+to hexadecimal representation.
+"""
+from __future__ import print_function
+import sys
+
+hex_stuff = []
+for oct_str in sys.argv[1:]:
+    hex_stuff.append(hex(int(oct_str, 8)))
+
+plist = lambda l: print('\t'.join(l))
+plist(sys.argv[1:])
+plist(hex_stuff)
