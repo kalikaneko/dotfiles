@@ -1,0 +1,6 @@
+#!/bin/sh
+# Open a browser in the page for the given issue.
+# Usage: leap-issue <ISSUE-NUMBER>
+
+sensible-browser https://leap.se/code/issues/$1
+echo [+] "Did open a browser session pointing to issue #$1"
