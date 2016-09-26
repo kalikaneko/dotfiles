@@ -1,2 +1,2 @@
 #!/bin/sh
-xterm -e "vim +VimwikiIndex"
+xterm -fa 'Inconsolata for Powerline:pixelsize=12:antialias=true:hinting=true'  -e "vim +VimwikiIndex"

