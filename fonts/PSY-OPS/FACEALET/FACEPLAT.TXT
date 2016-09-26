@@ -1,0 +1,21 @@
+FaceplateSans LE
+
+Design by Rodrigo Cavazos. Distributed by Psy/Ops San Francisco.
+
+The FaceplateSans LE fonts are functional evaluation software. They contain basic alphanumeric and shift-stroke symbols. Option- and alt-stroke characters such as accents, digraphs, and foreign currency symbols are not included. The fonts are bound by the following licensing terms, which prohibit redistribution of the software in any way.
+
+Visit <http://www.psyops.com/html/spec_faceplate.html> to view the rest of the family, download PDF specimens, or order complete editions of the fonts.
+
+By downloading and/or installing the FaceplateSans LE font software you agree to the following license terms:
+
+1. Each font downloaded is licensed for use on a single printer or output device in conjunction with a maximum of 5 CPUs at the same location.
+
+2. The FaceplateSans LE font software may not be copied or duplicated except for backup purposes. It may not be rented, leased, sold, sublicensed, lent, or otherwise redistributed to another person or entity. Other interested parties must download their own copy directly at <http://www.psyops.com/html/rolland.html>.
+
+3. Any software derived from, or incorporating the FaceplateSans LE font software must be used according to these licensing terms. Any modified version, or any outline information derived from the font software is still licensed for the same number of devices as the original and may not be sublicensed, given away, or sold.
+
+4. This license does not permit any form of embedding or encrypting of the font software in digital documents or any other form, except as described in the PSY/OPS Embedding License Addendum.
+
+Contact us regarding other licensing options. OEM inquiries are welcome.
+
+Copyright Psy/Ops Type 2001 :: www.psyops.com :: 1-888-PSY-FONE

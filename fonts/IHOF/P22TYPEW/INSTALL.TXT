@@ -1,0 +1,23 @@
+
+INSTALLATION INSTRUCTIONS
+
+Both PostScript and TrueType Format fonts are included. 
+You only need to use one format.
+In most cases you will be using TrueType fonts for your PC.
+You must be running Windows 3.1 or later to make use of TrueType.
+
+To Install:
+1. Open Control Panel by double-clicking its icon
+2. Open fonts panel by double-clicking its icon
+3. Click Add button. Add Fonts panel appears
+    -go to INSTALL NEW FONT from the FILE menu.
+4. Choose location of downloaded fonts
+5. DOUBLE CLICK on TTF directory
+6. Select Font(s) you wish to install
+7. Click OK button
+
+Your fonts should now be installed and will appear in the menu 
+of every application which uses a font menu.
+
+To make use of PostScript font for Windows, 
+You will need Adobe Type Manager 2.0 or later.

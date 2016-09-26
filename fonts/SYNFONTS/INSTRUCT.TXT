@@ -1,0 +1,53 @@
+
+                                                     How to install your new fonts 
+
+       How to load Macintosh truetype and postscript fonts.
+       (system 7.1 or higher)
+
+       1. Make a complete backup of all font files to a separate disk before you start the installation.
+       2. Do you have Suitcase or any other third party font management utility? If so, please refer to the manual that came with your program on
+       how to install the fonts into your computer.
+       3. If you do not use Suitcase or any other font management utility, simply "drag and drop" the truetype OR postscript files into the font
+       folder in your "system folder"
+
+        -----------------------------
+
+       How to load PC compatible fonts
+       (windows 3.1 or earlier)
+
+       1. Make a complete backup of all font files to a separate disk before you start the installation.
+       2. Open the group called "main" from the program manager.
+       3. Open "Control Panel"
+       4. Open the icon labeled "Fonts"
+       5. Open the icon labeled "Add."
+       6. Select the drive letter under the "drives" menu
+       7. Under "Directories", open the directory that contains the fonts you wish to install.
+       8. Press the "select all" button. This will select all font files in the open directory.
+       9. Press "OK" Your fonts are installed and should appear in the "Fonts" window.
+
+        -----------------------------
+
+       How to load PC compatible fonts
+       (windows 95)
+
+       1. Make a complete backup of all font files to a separate disk before you start the installation.
+       2. Select "Settings" from the "Start" menu.
+       3. Open "Control Panel."
+       4. Open the icon labeled "Fonts"
+       5. Open the "Menu" bar and select "File," then select "Install New Font"
+       6. Select the drive letter under the "drives" menu
+       7. Under "Directories", open the directory that contains the fonts you wish to install.
+       8. Press the "select all" button. This will select all font files in the open directory.
+       9. Press "OK" Your fonts are installed and should appear in the "Fonts" window. 
+
+                                     -Please call with any trouble you may have during the installation process -
+
+
+                                                      What type of font do I need?
+
+                                                         Each systems needs are different.
+                    Postscript fonts are used primarily in high resolution applications and are recommended for most graphics needs.
+
+            Truetype fonts are usually the best bet if you are printing from a stylewriter type printer or just using your fonts for on screen use.
+
+                                     If you request it, I'll send both truetype and postscript fonts with your order.

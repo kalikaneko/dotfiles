@@ -1,0 +1,55 @@
+Software License Agreement and limited Warranty
+
+Notice To User: Downloading and installing this software constitutes an agreement 
+between P22 type foundry, Inc.and International House of Fonts ("P22/IHOF")  
+and the original purchaser of the enclosed typefaces ("software") that the terms a
+nd conditions of this agreement will be followed. If you do not agree with the 
+terms of this agreement, return the complete package with disk sleeve unopened 
+to place of purchase.
+   
+1) Grant of license. This P22/IHOF Font package is licensed for use on a single 
+printer or output device in conjunction with a maximum of 5 CPU's for one location. 
+Call P22 for site license arrangements. One copy may be made for backup. 
+You may transfer the original software from one party to another provided ALL materials, 
+including all backup copies are included and that the recipient agrees to the licensing
+ terms and conditions.
+
+2) Copyright. The software and accompanying documentation are copyrighted and contain
+ intellectual property information protected by law. You may not make or distribute 
+copies of this software or accompanying documentation without the express written
+ consent of P22/IHOF.
+
+3) Fair Use. This font set cannot be used as the principle art on products to be 
+sold without the consent or a licensing arrangement from P22/IHOF. For example, You 
+cannot take one of the characters and use it as the primary or sole element on 
+commercial products such as t-shirts.
+
+4) Font Embedding. This font set, or any derived copy of it (such as a 'subset'), 
+may not be embedded within any document that will be distributed outside of the licensed
+ group of computers without the written permission of P22/IHOF, unless this font set 
+has also been licensed for use on the destination computer(s).  This includes embedding 
+within desktop publications, portable documents, and web documents, such as those 
+created with the Microsoft Web Embedding Font Tool and Office family of products, 
+the Adobe PostScript and Acrobat family of products, and Bitstream's TrueDoc technology.
+
+5) Ownership of Software. The software and all subsequent copies are the property of 
+P22/IHOF. This does not apply to the physical media on which the software is contained.
+
+6) Disclaimer and Limited Warranty. P22/IHOF warrants that the disk is free of errors 
+and will be replaced within 90 days of purchase in the event of defective media. If 
+failure of the disk results from accident, abuse, or neglect, P22/IHOF assumes no 
+responsibility to replace the disk.
+
+THE SOFTWARE AND ACCOMPANYING WRITTEN MATERIALS ARE PROVIDED "AS IS" WITHOUT WARRANTY 
+OF ANY KIND, EXPRESSED OR IMPLIED, AND P22 SPECIFICALLY DISCLAIMS THE WARRANTIES OF 
+FITNESS FOR A PARTICULAR PURPOSE AND MERCHANTABILITY. IN ADDITION, P22/IHOF DOES NOT 
+MAKE ANY REPRESENTATIONS REGARDING THE USE OR THE RESULTS OF THE USE OF THE SOFTWARE 
+OR THE WRITTEN MATERIALS IN TERMS OF CORRECTNESS, ACCURACY, RELIABILITY, CURRENTNESS 
+OR OTHERWISE. THE ENTIRE RISK AS A RESULT OF THE PERFORMANCE OF THE SOFTWARE IS 
+ASSUMED BY THE USER.
+
+7) Update Policy. At the option of P22/IHOF, there may be updated versions of the 
+software which will be offered to registered users.
+
+
+

@@ -1,0 +1,23 @@
+FontName (P22Cusp-ThreeDee)
+FullName (P22 Cusp Three Dee)
+AppleName (P22 Cusp Three Dee)
+AppleFONDID 11213
+FamilyName (P22 Cusp Three Dee)
+Version (001.000)
+isFixedPitch false
+CharacterSet (custom)
+Encoding (SpecificEncoding)
+Pi true
+ItalicAngle 0
+CapHeight 700
+UnderlinePosition -100
+UnderlineThickness 50
+StemWidth 50
+Serif true
+MSMenuName (P22 Cusp Three Dee)
+VPMenuName (P22 Cusp Three Dee)
+WORDMenuName (P22CuspThreeDee)
+VPStyle (N)
+WindowsCharSet 200
+WindowsFirstChar 5
+WindowsLastChar 255
